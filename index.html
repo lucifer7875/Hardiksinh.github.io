@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- external css link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- bootstrap icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- responsive link -->
+    <link rel="stylesheet" href="./css/responsive_style.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- navtabs -->
+    <div>
+      <span class="cSpan1">👨🏻‍💻 HARDIKSINH <span class="rj">RAJPUT</span> </span>
+      <br />
+      <span class="cSpan2">
+        <button class="btn" onclick="openTab('about')">ABOUT ME</button>
+        <button class="btn" onclick="openTab('resume')">RESUME</button>
+        <button class="btn" onclick="openTab('project')">PROJECTS</button>
+        <button class="btn" onclick="openTab('contact')">CONTACT</button>
+      </span>
+    </div>
+
+    <div id="about" class="about tab">
+      <div class="pDiv">
+        <div class="cDiv1"></div>
+      </div>
+      <div class="pDiv3">
+        <!--PROFILE  -->
+        <div class="cDiv3">
+          <div>
+            <p>
+              <img src="./assets/me.jpg" alt="profilephoto" class="profile" />
+            </p>
+            <p class="cPara">
+              Hardiksinh <br />
+              Rajput
+            </p>
+            <hr class="style-two" />
+            <p class="cParaC">Web Devloper</p>
+          </div>
+          <p class="cPara1">
+            <a
+              href="https://www.facebook.com/profile.php?id=100008539207073"
+              target="_blank"
+              class="facebook"
+            >
+              <em class="bi bi-facebook"></em
+            ></a>
+            <a
+              href="https://twitter.com/HardiksinhRajp4"
+              target="_blank"
+              class="twitter"
+            >
+              <em class="bi bi-twitter"></em
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/hardiksinh-rajput-50009a211/"
+              target="_blank"
+              class="Linkedin"
+            >
+              <em class="bi bi-linkedin"></em
+            ></a>
+            <a
+              href="https://wa.me/918140187327?text="
+              target="_blank"
+              class="whatsapp"
+              ><em class="bi bi-whatsapp"></em
+            ></a>
+          </p>
+        </div>
+
+        <!-- About Me -->
+        <div class="cDiv4">
+          <p class="hel">Hello</p>
+
+          <p>
+            <button class="btn1" onclick="openTab('resume')">RESUME</button>
+            <button class="btn1" onclick="openTab('project')">PROJECTS</button>
+          </p>
+          <p class="infoDiv">
+            I am Hardiksinh Rajput.
+            <br />
+            <br />
+            It's time to see my profile. Lets go through all sections turn by
+            turn...
+            <br /><br />
+            Well here I will give overview , i am fullstake developer , i am a
+            great energetic person to show my talent around the world , which I
+            can contribute knowledge as well I can gain knowledge.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- resume tab -->
+    <div id="resume" class="resume tab" style="display: none">
+      <br />
+      <br />
+
+      <p class="resume1">
+        <svg class="svg">
+          <rect
+            x="10"
+            y="20"
+            width="20"
+            height="20"
+            style="fill: black; opacity: 0.5"
+          />
+        </svg>
+        <span class="res2">RESUME</span>
+      </p>
+      <br /><br />
+      <!-- personal information -->
+      <div>
+        <div class="flexDiv">
+          <div class="pInfo">PERSONAL INFORMATION</div>
+          <div>
+            <a href="./Hardik_resume.docx" download="Hardiksinh_Resume">
+              <button class="downloadBtn">Download CV</button>
+            </a>
+          </div>
+        </div>
+        <div class="infoDiv1">
+          <table class="infoTable">
+            <th style="display: none"></th>
+            <tr>
+              <td class="tableTd">Name</td>
+              <td>: RAJPUT HARDIKSINH RATANSINH</td>
+            </tr>
+            <tr>
+              <td>Date of Birth</td>
+              <td>: 17th MARCH 2000</td>
+            </tr>
+            <tr>
+              <td>Gender</td>
+              <td>: Male</td>
+            </tr>
+            <tr>
+              <td>Languages Known</td>
+              <td>: Gujarati, Hindi & English</td>
+            </tr>
+            <tr>
+              <td>Nationality</td>
+              <td>: Indian</td>
+            </tr>
+            <tr>
+              <td>Religion</td>
+              <td>: Hindu</td>
+            </tr>
+            <tr>
+              <td>Marital Status</td>
+              <td>: Unmarried</td>
+            </tr>
+            <tr>
+              <td>Category</td>
+              <td>: General</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- carrier vision -->
+      <div>
+        <p class="carrierPara">CARRIER VISION</p>
+        <div class="carrierDiv">
+          To work for a progressive organization in a highly motivating and
+          challenging environment that provides the best opportunities to grow
+          and utilize my potential to the fullest to achieve the organization's
+          goal while achieving my personal goals.
+        </div>
+      </div>
+      <!-- INTERNSHIP  -->
+      <div>
+        <p class="internshipPara">INTERNSHIP</p>
+        <div class="internDiv">
+          <div>
+            <p class="internYear">2022</p>
+            <p>Orena Solution</p>
+          </div>
+          <div class="internLoc">
+            I am completed 3 month internship in mern stack at Orenasolution,
+            Vadodara
+          </div>
+        </div>
+      </div>
+      <!-- EDUCATIONAL DETAILS  -->
+      <div>
+        <p class="eduPara">EDUCATIONAL DETAILS</p>
+        <div class="eduDiv">
+          B.E. Information Technology from Shantilal Shah Engineering College,
+          Bhavnagar (8.0 SPI and 7.50 CGPA) in year 2022.
+          <br />
+          H.S.C. From Eklavya School of Science, Patan (GSEB, 58.2 %) in year
+          2018.
+          <br />
+          S.S.C. From Eklavya School of Science, Patan (GSEB, 75%) in year 2016
+        </div>
+      </div>
+      <!-- known language -->
+      <div>
+        <p class="techPara">KNOWN TECHNOLOGY</p>
+        <div class="techDiv">
+          <span> Web Technology:</span> <span>HTML,CSS</span>
+          <br />
+          <span>known language:</span
+          ><span>JavaScript, jQuery , ReactJs , NodeJs</span>
+          <br />
+          <span>Backend:</span><span>MySQl,MongoDB</span>
+        </div>
+      </div>
+
+      <!-- skill -->
+
+      <div>
+        <p class="skillPara">My Skills</p>
+        <div class="skillDiv">
+          <p>HTML</p>
+          <div class="container">
+            <div class="skills html">90%</div>
+          </div>
+
+          <p>CSS</p>
+          <div class="container">
+            <div class="skills css">80%</div>
+          </div>
+
+          <p>JavaScript</p>
+          <div class="container">
+            <div class="skills js">75%</div>
+          </div>
+
+          <p>jQuery</p>
+          <div class="container">
+            <div class="skills jQ">70%</div>
+          </div>
+
+          <p>React Js</p>
+          <div class="container">
+            <div class="skills React">72%</div>
+          </div>
+
+          <p>PHP</p>
+          <div class="container">
+            <div class="skills php">60%</div>
+          </div>
+
+          <p>My SQL</p>
+          <div class="container">
+            <div class="skills MySQL">88%</div>
+          </div>
+
+          <p>MongoDB</p>
+          <div class="container">
+            <div class="skills MongoDB">68%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- project tab -->
+
+    <div id="project" class="project tab" style="display: none">
+      <br />
+      <br />
+      <p class="project1">
+        <svg class="svg">
+          <rect
+            x="10"
+            y="20"
+            width="20"
+            height="20"
+            style="fill: black; opacity: 0.5"
+          /></svg
+        ><span class="res2">PROJECTS</span>
+      </p>
+      <br /><br />
+      <div class="voting">
+        <p>
+          <span class="headerSpan">VOTING SYSTEM</span> <br />
+          <span class="subHeaderSpan"> Frontend and Backend Devloper</span>
+        </p>
+        <hr class="style-hr" />
+        <p class="projectDetailsPara">
+          I Made online voting system.<br />
+          It have Only User Panel.
+        </p>
+        <div style="display: flex">
+          <div class="technology">
+            <span class="techSpan"> Technology</span>
+            <ul>
+              <li>HTML</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+          <div class="cssDiv">
+            <span class="cssSpan">CSS </span>
+            <ul>
+              <li>Bootstrap 5</li>
+            </ul>
+          </div>
+          <div class="backend">
+            <span class="backSpan">Backend</span>
+            <ul>
+              <li>MY SQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <!-- project 2 -->
+
+      <div class="chat">
+        <p>
+          <span class="headerSpan">CHAT APPLICATION</span><br />
+          <span class="subHeaderSpan">Frontend Devloper</span>
+        </p>
+        <hr class="style-hr" />
+        <p class="projectDetailsPara">
+          We made a web base Chat-Application. <br />
+          we chat with each other in realTime. we do personal Chat and also
+          Group Chat. <br />
+          It have only User Panel.
+        </p>
+        <div style="display: flex">
+          <div class="technology">
+            <span class="techSpan"> Technology</span>
+            <ul>
+              <li>HTML</li>
+              <li>Ratchat Library</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+          <div class="cssDiv">
+            <span class="cssSpan">CSS </span>
+            <ul>
+              <li>Bootstrap 5</li>
+            </ul>
+          </div>
+          <div class="backend">
+            <span class="backSpan">Backend</span>
+            <ul>
+              <li>MY SQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <!-- project 3 -->
+
+      <div class="quiz">
+        <p>
+          <span class="headerSpan">QUIZ APP</span><br />
+          <span class="subHeaderSpan">Frontend and Backend Devloper</span>
+        </p>
+        <hr class="style-hr" />
+        <p class="projectDetailsPara">
+          I made a web base QUIZ APP.
+          <br />
+          It have User and Admin Panel. User Register and Login also. After
+          Login User can choose categories of Quiz like, Mathematics, General
+          Knowledge ,History.
+          <br />
+          they can see and update their profile. when Exam is Over user press
+          submit Button user get their marks and grade.
+          <br />
+          when Admin Login admin redirect on Admin Panel , In admin panel
+          dashboard, graph, and add-Question use of this Admin add Question in
+          their categori in dashboard they see welcome board and also see total
+          number of user and total number of categori and total Question and in
+          graph they see various types of graph like total user graph and also
+          highest marks graph of user.
+        </p>
+        <div style="display: flex">
+          <div class="technology">
+            <span class="techSpan"> Technology </span>
+            <ul>
+              <li>HTML</li>
+              <li>ReactJs</li>
+            </ul>
+          </div>
+          <div class="cssDiv">
+            <span class="cssSpan">CSS</span>
+            <ul>
+              <li>Material UI</li>
+            </ul>
+          </div>
+          <div class="backend">
+            <span class="backSpan">Backend </span>
+            <ul>
+              <li>MongoDB</li>
+              <li>NodeJs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <!-- project 4 -->
+      <div class="showroom">
+        <p>
+          <span class="headerSpan">Cars ShowRoom Web Site</span><br />
+          <span class="subHeaderSpan">Frontend and Backend Devloper</span>
+        </p>
+        <hr class="style-hr" />
+        <p class="projectDetailsPara">
+          It have User and Admin Panel. User Register and Login also. After
+          Login User can see our showroom profile and show Cars.
+          <br />
+          if they want show more cars then they go to the gallery and check
+          avilable cars and thir details.
+          <br />
+          when Admin Login admin redirect on Admin Panel , In admin panel
+          dashboard, graph, and avilable Cars.In dashboard they see welcome
+          board and in graph they see various types of graph like total user
+          graph and also valueation graph and Cars sell graph..
+        </p>
+        <div style="display: flex">
+          <div class="technology">
+            <span class="techSpan"> Technology </span>
+            <ul>
+              <li>HTML</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+          <div class="cssDiv">
+            <span class="cssSpan">CSS </span>
+            <ul>
+              <li>Bootstrap 5</li>
+            </ul>
+          </div>
+          <div class="backend">
+            <span class="backSpan">Backend </span>
+            <ul>
+              <li>MySQl</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact  -->
+    <div id="contact" class="contact tab" style="display: none">
+      <br /><br />
+      <p class="contact1">
+        <svg class="svg ">
+          <rect
+            x="10"
+            y="20"
+            width="20"
+            height="20"
+            style="fill: black; opacity: 0.5"
+          />
+        </svg>
+        <span class="res2">LET'S TALK</span>
+      </p>
+      <div class="contactDiv">
+        <table class="contactTable">
+          <th style="display: none"></th>
+          <tr>
+            <td class="contactTd">First Name</td>
+            <td>: Hardiksinh</td>
+          </tr>
+          <tr>
+            <td class="contactTd">Last Name</td>
+            <td>: Rajput</td>
+          </tr>
+          <tr>
+            <td class="contactTd">Email</td>
+            <td>: hardiksinhrajput98@gmail.com</td>
+          </tr>
+          <tr>
+            <td class="contactTd">Phone Number</td>
+            <td>: 8140187327</td>
+          </tr>
+          <tr>
+            <td class="contactTd">Position</td>
+            <td>: Full Stake web Devloper</td>
+          </tr>
+        </table>
+        <br /><br />
+        <table class="contactTable">
+          <tr>
+            <td class="contactTd">Message</td>
+            <td>
+              If you have any further questions or requir any additional
+              documentation please contact me using the above information
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer-basic">
+      <footer>
+        <!-- section -->
+        <div class="sec">
+          <!-- tabs -->
+          <div>
+            <ul class="list-inline">
+              <li class="list-inline-item" onclick="openTab('about')">
+                <a href="#">ABOUT ME</a>
+              </li>
+              <br />
+              <li class="list-inline-item" onclick="openTab('resume')">
+                <a href="#">RESUME</a>
+              </li>
+              <br />
+              <li class="list-inline-item" onclick="openTab('project')">
+                <a href="#">PROJECTS</a>
+              </li>
+              <br />
+              <li class="list-inline-item" onclick="openTab('contact')">
+                <a href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+          <!-- second tabs section -->
+          <div class="second">
+            <em
+              class="bi bi-geo-alt"
+              style="font-size: x-large; margin-right: 5px"
+            ></em>
+            <a
+              href="http://maps.google.com/maps?q=vijay+cross+road,+Navrangpura,+Ahmedabad,+Gujarat+380009"
+              class="location"
+              target="_blank"
+            >
+              VijayCross-Road,Ahemdabad</a
+            >
+            <br /><br />
+            <em
+              class="bi bi-envelope"
+              style="font-size: x-large; margin-right: 5px"
+            ></em>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=hardiksinhrajput98@gmail.com"
+              target="_blank"
+              class="email"
+              >hardiksinhrajput98@gmail.com</a
+            >
+            <br /><br />
+            <em
+              class="bi bi-telephone"
+              style="font-size: x-large; margin-right: 5px"
+            ></em
+            ><a href="tel:+918140187327" class="mobile"> 8140187327</a>
+          </div>
+
+          <!-- about me section -->
+          <div class="aboutSec">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  class="gmap_iframe"
+                  width="100%"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://maps.google.com/maps?width=350&amp;height=250&amp;hl=en&amp;q=vijay cross  Rd&amp;t=h&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ></iframe>
+                <a href="https://mcpenation.com/">Minecraft Website</a>
+              </div>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  width: 100%;
+                  height: 250px;
+                }
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  width: 100%;
+                  height: 250px;
+                }
+                .gmap_iframe {
+                  height: 250px !important;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr class="style-three" />
+        <br />
+        <!-- social media -->
+        <div class="social">
+          <a href="https://twitter.com/HardiksinhRajp4" target="_blank">
+            <em class="bi bi-twitter"></em
+          ></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100008539207073"
+            target="_blank"
+            ><em class="bi bi-facebook"></em
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/hardiksinh-rajput-50009a211/"
+            target="_blank"
+          >
+            <em class="bi bi-linkedin"></em
+          ></a>
+        </div>
+
+        <p class="copyright">Hardiksinh Rajput © 2018</p>
+      </footer>
+    </div>
+    <script>
+      function openTab(tabName) {
+        var i;
+        var x = document.getElementsByClassName("tab");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        document.getElementById(tabName).style.display = "block";
+      }
+    </script>
+  </body>
+</html>

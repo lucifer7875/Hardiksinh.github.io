@@ -1,0 +1,322 @@
+@media only screen and (max-width: 600px) {
+    span.rj {
+        margin-left: 81px;
+    }
+
+    span.cSpan2 {
+        margin-left: 40px;
+    }
+
+    button.btn {
+        margin-right: 6px;
+        font-size: 11px;
+    }
+
+    div.pDiv3 {
+        display: block;
+        margin-left: 40px;
+    }
+
+    div.cDiv3 {
+
+        width: 170px;
+        margin-left: 7px;
+    }
+
+    img.profile {
+        width: 96px;
+        border-radius: 60px;
+    }
+
+    p.cPara {
+        font-size: 15px;
+    }
+
+    p.cPara1 {
+        margin-top: 16px;
+    }
+
+    hr.style-two {
+        height: 2px;
+        width: 74px;
+    }
+
+    p.cParaC {
+        font-size: 15px;
+    }
+
+    div.cDiv4 {
+        margin-left: -24px;
+        background-color: #badae7;
+        width: 212px;
+        padding: 11px;
+        margin-top: 10px;
+        box-shadow: -5px 5px 10px 1px;
+    }
+
+    p.hel {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    button.btn1 {
+        padding: 8px;
+        font-size: 8px;
+    }
+
+    p.infoDiv {
+        font-size: 15px;
+        width: 212px;
+    }
+
+    div.aboutSec {
+        display: none;
+    }
+
+    div.sec {
+        display: block;
+    }
+
+    ul.list-inline {
+        margin-top: 50px;
+        margin-left: -267px;
+        font-size: small;
+    }
+
+    div.second {
+        width: 257px;
+        margin-top: 31px;
+        margin-left: 70px;
+        font-size: 9px;
+        padding: 0px;
+    }
+
+    a.location,
+    a.email,
+    a.mobile {
+        font-size: 15px;
+    }
+
+    hr.style-three {
+        width: 90vw;
+        margin-left: 0px;
+    }
+
+    div.social {
+        margin-left: -35px;
+    }
+
+    p.copyright {
+        margin-left: -25px;
+    }
+
+    /* resume */
+    div.resume,
+    div.project {
+        height: 230vh;
+    }
+
+    p.resume1,
+    p.project1,
+    p.contact1 {
+        font-size: 15px;
+    }
+
+    svg.svg {
+        width: 20px;
+        height: 30px;
+    }
+
+    span.res2 {
+        margin: 0px 0px 0px 9px;
+    }
+
+    div.pInfo {
+        margin-right: 55px;
+        font-size: 15px;
+    }
+
+    button.downloadBtn {
+        padding: 6px;
+        margin-bottom: 16px;
+        font-size: 10px;
+    }
+
+    div.infoDiv1 {
+        width: 292px;
+        margin-left: 15px;
+    }
+
+    table.infoTable,
+    table.contactTable {
+        font-size: 10px;
+        padding: 6px;
+    }
+
+    td.tableTd {
+        width: 70px;
+    }
+
+    p.carrierPara,
+    p.internshipPara,
+    p.eduPara,
+    p.techPara,
+    p.skillPara {
+        font-size: 15px;
+        margin-right: 0px;
+        margin-left: 24px;
+    }
+
+    div.carrierDiv,
+    div.internDiv,
+    div.eduDiv,
+    div.techDiv,
+    div.skillDiv,
+    div.voting,
+    div.chat,
+    div.quiz,
+    div.showroom,
+    div.contactDiv {
+        width: 292px;
+        margin-left: 15px;
+        font-size: 10px;
+        padding: 12px;
+    }
+
+    p.internYear {
+        font-size: 15px;
+        margin-left: 8px;
+        margin-right: 40px;
+    }
+
+    div.internLoc {
+        margin: 23px 0px 0px 22px;
+    }
+
+    /* project */
+    span.headerSpan {
+        font-size: 15px;
+    }
+
+    span.subHeaderSpan {
+        margin: 0px 0px 0px 113px;
+    }
+
+    span.techSpan,
+    span.backSpan,
+    span.cssSpan {
+        font-size: 10px;
+        margin-left: 29px;
+    }
+
+    div.backend,
+    div.cssDiv {
+        margin-left: 0px;
+    }
+
+    td.contactTd {
+        width: 60px;
+    }
+
+    div.contact {
+        height: 60vh;
+    }
+}
+
+@media only screen and (min-width: 768px) And (max-width:992px) {
+    span.cSpan2 {
+        margin-left: 300px;
+    }
+
+    div.pDiv3 {
+        margin-left: 69px;
+    }
+
+    div.cDiv1 {
+        width: 35vw;
+        height: 720px;
+    }
+
+    div.aboutSec {
+        margin-left: 16px;
+    }
+
+    div.second {
+        margin-left: 8px;
+    }
+
+
+    /* resume */
+    p.resume1,
+    p.project1 ,p.contact1{
+        font-size: 28px;
+    }
+
+    svg.svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    div.pInfo {
+        margin-right: 380px;
+    }
+
+    div.infoDiv1 {
+        width: 672px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    div.carrierDiv,
+    div.internDiv,
+    div.eduDiv,
+    div.techDiv,
+    div.skillDiv {
+        padding: 20px;
+        width: 663px;
+        margin-left: 33px;
+    }
+
+    p.carrierPara,
+    p.internshipPara,
+    p.eduPara,
+    p.techPara,
+    p.skillPara {
+        margin-right: 0px;
+        margin-left: 77px;
+    }
+
+    div.resume {
+        height: 215vh;
+    }
+
+    /* project */
+    div.voting,
+    div.chat,
+    div.quiz,
+    div.showroom {
+        width: 654px;
+        margin-left: 34px;
+    }
+
+    span.subHeaderSpan {
+        margin-left: 350px;
+    }
+
+    div.project {
+        height: 210vh;
+    }
+
+    /* contact */
+
+    td.contactTd{
+        width: 229px;
+    }
+    div.contactDiv{
+        width: 665px;
+        margin-left: 21px;
+    }
+    div.contact{
+        height: 60vh;
+    }
+}
