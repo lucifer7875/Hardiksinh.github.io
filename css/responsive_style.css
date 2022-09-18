@@ -3,6 +3,15 @@
         margin-left: 81px;
     }
 
+    br.break {
+        display: block;
+    }
+
+    div.cDiv1 {
+
+        height: 100vh;
+    }
+
     span.cSpan2 {
         margin-left: 40px;
     }
@@ -15,6 +24,8 @@
     div.pDiv3 {
         display: block;
         margin-left: 40px;
+        margin-top: -669px;
+        width: 0px;
     }
 
     div.cDiv3 {
@@ -86,7 +97,7 @@
     div.second {
         width: 257px;
         margin-top: 31px;
-        margin-left: 70px;
+        margin-left: 30px;
         font-size: 9px;
         padding: 0px;
     }
@@ -228,6 +239,10 @@
         margin-left: 300px;
     }
 
+    br.break {
+        display: block;
+    }
+
     div.pDiv3 {
         margin-left: 69px;
     }
@@ -248,7 +263,8 @@
 
     /* resume */
     p.resume1,
-    p.project1 ,p.contact1{
+    p.project1,
+    p.contact1 {
         font-size: 28px;
     }
 
@@ -309,14 +325,16 @@
 
     /* contact */
 
-    td.contactTd{
+    td.contactTd {
         width: 229px;
     }
-    div.contactDiv{
+
+    div.contactDiv {
         width: 665px;
         margin-left: 21px;
     }
-    div.contact{
+
+    div.contact {
         height: 60vh;
     }
 }
