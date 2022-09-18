@@ -1,6 +1,9 @@
 .about {
     display: block;
 }
+.break{
+    display: none;
+}
 
 .cSpan1 {
     font-size: 30px;
